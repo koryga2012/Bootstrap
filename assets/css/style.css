@@ -73,7 +73,7 @@ a:focus {
   color: #df8a13;
 }
 h1 {
-  margin: -7.5px 0 30px;
+  margin: -7.5px 0 45px;
   font-family: "PT Serif", serif;
 }
 h1::after {
@@ -395,7 +395,7 @@ section {
 }
 @media (max-width: 575px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   h2 {
     font-size: 1.75rem;
