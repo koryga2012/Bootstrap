@@ -214,14 +214,19 @@ section {
   margin-bottom: 30px;
    transition: background-color 0.25s ease;
 }
+.description {
+  display: inline-block;
+  margin: auto;
+}
 .film-info {
   font-size: 1.2em;
 }
 .film-info__badge {
   font-size: 0.8em;
+  margin-right: 24.219px;
 }
 .film-info__badge:not(:last-child) {
-  margin-right: 3%;
+  margin-right: 13%;
 }
 .film-info__well {
   border-top-left-radius: 0;
