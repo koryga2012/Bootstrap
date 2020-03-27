@@ -204,7 +204,6 @@ section {
 .film-news h3 > a {
    transition: color 0.25s ease;
 }
-
 .film-news .thumbnail {
   margin-bottom: 0;
   transition: background-color 0.25s ease;
@@ -221,16 +220,18 @@ section {
 .film-info {
   font-size: 1.2em;
 }
+.film-info__wrapper {
+  white-space: nowrap;
+}
+.film-info__wrapper:not(:last-of-type) {
+  margin-right: 15px;
+}
 .film-info__badge {
   font-size: 0.8em;
   margin-right: 24.219px;
 }
 .film-info__badge:not(:last-child) {
   margin-right: 13%;
-}
-.film-info__well {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 .film-send-comment .btn {
   float: right;
